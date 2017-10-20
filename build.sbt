@@ -15,3 +15,10 @@ lazy val pma1 = (project in file ("pma1"))
     libraryDependencies += "com.github.yannrichet" % "JMathIO" % "1.0",
     libraryDependencies += "com.github.yannrichet" % "JMathArray" % "1.0"
   )
+lazy val pma2 = (project in file ("pma2"))
+  .settings(
+    libraryDependencies += "gov.nist.math" % "jama" % "1.0.3",
+    libraryDependencies += "com.github.yannrichet" % "JMathPlot" % "1.0",
+    libraryDependencies += "com.github.yannrichet" % "JMathIO" % "1.0",
+    libraryDependencies += "com.github.yannrichet" % "JMathArray" % "1.0"
+  )
