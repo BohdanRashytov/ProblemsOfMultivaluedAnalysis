@@ -29,3 +29,10 @@ lazy val pma3 = (project in file ("pma3"))
     libraryDependencies += "com.github.yannrichet" % "JMathIO" % "1.0",
     libraryDependencies += "com.github.yannrichet" % "JMathArray" % "1.0"
   )
+
+
+
+
+
+
+lazy val sheva = (project in file ("sheva"))
