@@ -2,7 +2,7 @@ package sheva
 
 import java.lang.Math._
 
-class GoldenSection(f: Double => Double, a0: Double = 1000.0, b0: Double = 1000.0) {
+class GoldenSection(f: Double => Double, a0: Double = -1000.0, b0: Double = 1000.0) {
 
   private val tau = (sqrt(5) - 1.0) / 2.0
   private val epsilon = 0.001
